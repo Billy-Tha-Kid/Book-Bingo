@@ -4,10 +4,7 @@ function Footer({ extra }) {
   return (
     <footer className="p-4 rounded-lg md:items-center justify-center md:p-6">
       <span className="text-sm sm:text-center block">
-        Made with &hearts; by{" "}
-        <a href="https://github.com/luoabd/" className="hover:underline">
-          luoabd.
-        </a>
+        Made with love by yours truly
       </span>
       <span
         className={"text-sm sm:text-center " + (extra ? "block" : "hidden")}

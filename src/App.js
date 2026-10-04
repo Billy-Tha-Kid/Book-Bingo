@@ -5,6 +5,7 @@ import Bongo24 from "./pages/Bongo24";
 import FullyBooked25 from "./pages/FullyBooked25";
 import RFantasy from "./pages/RFantasy";
 import Home from "./pages/Home";
+import BLBingo2026 from "./pages/BLBingo2026";
 import ErrorPage from "./pages/ErrorPage";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="fullybooked25" element={<FullyBooked25 />} />
         <Route path="bongo24" element={<Bongo24 />} />
         <Route path="rfantasy" element={<RFantasy />} />
+        <Route path="bl2026" element={<BLBingo2026 />} />
         <Route path="*" element={<ErrorPage />} />
     </Routes>
   </HashRouter>
